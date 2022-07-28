@@ -5,7 +5,7 @@ addTODO.addEventListener("click", function () {
     createToDo();
 });
 
-
+// for enter key
 searchBox.addEventListener('keypress', (e) => {
     if (e.which === 13) {
         createToDo();
